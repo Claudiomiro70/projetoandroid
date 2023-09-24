@@ -1,0 +1,178 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'idroid';
+    src: url('fontes/idroid.otf') format('opentype');
+   
+}
+
+body {
+    background-color: #84e4ac;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+       
+}
+
+header  {
+    background-color: rgb(41, 148, 89);
+    background-image: linear-gradient(to top, rgb(255, 255, 255), rgba(36, 136, 81, 0.863));
+    background-attachment: fixed;
+    font-weight: lighter;
+    padding: 5px;
+    margin: 0px;
+    border: 0px;
+    bottom: 0px;
+    text-align: center;
+    font-family: fantasy;
+    font-weight: normal;
+    
+    color: white;
+   
+}
+
+div#caixa1 {
+    text-align: center;
+    padding-left: 580px;
+    height: 50px;
+    width: 430px;
+}
+
+main {
+    background-color: white;
+    padding: 0px;
+    padding-bottom: 10px;
+    margin-top: 0;
+    margin-right: 250px;
+    margin-bottom: 0px;
+    margin-left: 250px;
+    text-indent: 2em;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    height: auto;
+}
+
+nav {
+    padding: 3px;
+    margin: 5px;
+    text-align: left;
+}
+
+nav > a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin-right: 30px;
+}
+
+nav > a:hover{
+    text-decoration: underline;
+}
+
+h2 {
+    font-family: 'idroid', Arial, Helvetica, sans-serif;
+    color: rgb(32, 119, 71);
+    margin-left: 20px;
+    margin-top: 0px;
+    padding: 25;
+    border-top: 125px;
+}
+
+
+h3  {
+  
+    color: rgb(32, 119, 71);
+    background-image: linear-gradient(to left, rgb(255, 255, 255), rgba(32, 119, 71, 0.329));
+    background-attachment: fixed;
+    font-family: 'idroid', Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+}
+
+p {
+   margin-right: 5px;
+   margin-left: 5px; 
+   text-align: justify;
+   padding-top: 0px;
+   
+}
+
+div#Irina {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div#aprender {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: large;
+    color: rgb(255, 255, 255);
+    background-color: rgba(8, 194, 91, 0.932);
+    margin-top: 10px;
+    margin-bottom: 0px;
+    border-bottom: 10px;
+    margin-left: 140px;
+    height: 30px;
+    width: 800px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    padding-top: 10px;
+}
+
+div#video{
+    background-color: rgb(32, 119, 71);
+    height: 380px;
+    padding-top: 20px;
+    border-top: 10px;
+    border-bottom: 0px;
+    margin-top: 5px;
+    text-align: center;
+}
+
+div#caixa {
+    background-color: rgba(126, 236, 176, 0.808);;
+    padding-top: 10px;
+    margin-left: 140px;
+    text-align: center;
+    height: 480px;
+    width: 800px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+ol {
+    font-family: Arial, Helvetica, sans-serif;
+    list-style-image: url(imagens/Icons8-Windows-8-User-Interface-Checked-Checkbox.32.png);
+    margin-left: 1px;
+    text-align: left;
+    height: 200px;
+    width: 200px;
+    
+}
+
+ol {
+    display: inline-block;
+    text-align: left;
+    height: 200px;
+    width: 200px;
+    
+}
+
+footer {
+    background-color: rgb(2, 71, 2);
+    color: white;
+    text-align: center;
+    height: 40px;
+    padding-top: 1px;
+    padding-bottom: 2px;
+}
+
+div#footer {
+    text-align: left;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 480px;
+}
+
+div#finaliza {
+    margin-right: 20px;
+    margin-left: 20px;
+}
