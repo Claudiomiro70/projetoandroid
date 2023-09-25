@@ -101,7 +101,7 @@ main {
     }
 
 main h1{
-    color: #1a5c37;
+    color: var(--cor5)
     font-family: var(--fonte-android); 
     font-size: 1.8em;
 }
